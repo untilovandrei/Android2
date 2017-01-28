@@ -83,4 +83,8 @@ public class MainActivity extends AppCompatActivity implements GestureDetector.O
         this.gestureDetector.onTouchEvent(event);
         return super.onTouchEvent(event);
     }
+
+    private void method(){
+        int i=2;
+    }
 }
